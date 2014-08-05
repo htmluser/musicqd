@@ -1,0 +1,320 @@
+body{
+	width:  1200px;
+	margin: 0 auto;
+}
+
+img {
+	vertical-align:middle;
+}
+
+div {
+	display: inline-block;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#logo{
+	margin-top: 30px;
+	margin-left: 95px;
+}
+
+.mod_nav{
+	margin-left: 65px;
+	width: 800px;
+}
+
+.mod_nav ul{
+	position:relative;
+	top: 20px;
+	left: 40px;
+}
+
+.mod_nav ul li{
+	display: inline;
+	font-size: 43px;
+	font-family: HiraginoSans-W3;
+	letter-spacing: -2px;
+}
+
+a:link,a:visited{
+	text-decoration: none;
+	color: rgb(175,174,174);
+}
+
+a:hover,a:active
+{
+    color:rgb(204,51,51);
+}
+
+
+.nav_projects{
+	position:relative;
+	left: 45px;
+}
+
+.nav_labs{
+	position:relative;
+	left: 90px;
+}
+
+.nav_team{
+	position:relative;
+	left: 130px;
+}
+
+#banner{
+	margin-top: 15px;
+}
+
+.music{
+	margin-left: 95px;
+	margin-top: 50px;
+}
+
+.mid{
+	padding-top: -30px;
+	padding-bottom: 5px;
+}
+
+.demo{
+	width: 300px;
+	height: 322px;
+	margin-top: 50px;
+	margin-left: 90px;
+	border-bottom-width: 3px; 
+	border-bottom-color: rgb(200,56,90);
+	border-bottom-style: solid;
+	box-shadow: 1px 2px 10px #888888;
+}
+
+.zstb{
+	width: 302px;
+	height: 323px;
+	margin-left: 65px;
+	position:relative;
+	top: 21px;
+	border-bottom-width: 3px; 
+	border-bottom-color: rgb(255,207,72);
+	border-bottom-style: solid;
+	box-shadow: 1px 2px 10px #888888;
+}
+
+.qz{
+	width: 300px;
+	height: 322px;
+	margin-left: 65px;
+	border-bottom-width: 3px; 
+	border-bottom-color: rgb(31,206,203);
+	border-bottom-style: solid;
+	box-shadow: 1px 2px 10px #888888;
+}
+
+.ps{
+	width: 302px;
+	height: 327px;
+	margin-top: 60px;
+	margin-left: 90px;
+	border-bottom-width: 3px; 
+	border-bottom-color: rgb(28,169,201);
+	border-bottom-style: solid;
+	box-shadow: 1px 2px 10px #888888;
+}
+
+.css{
+	width: 300px;
+	height: 325px;
+	margin-left: 65px;
+	border-bottom-width: 3px; 
+	border-bottom-color: rgb(255,159,136);
+	border-bottom-style: solid;
+	box-shadow: 1px 2px 10px #888888;
+}
+
+.chrome{
+	width: 302px;
+	height: 325px;
+	margin-left: 65px;
+	position:relative;
+	top: 27px;
+	border-bottom-width: 3px; 
+	border-bottom-color: rgb(192,228,218);
+	border-bottom-style: solid;
+	box-shadow: 1px 2px 10px #888888;
+}
+
+ul li{
+	letter-spacing: -1px;
+}
+
+ul {
+	position:relative;
+	left: -40px;
+}
+
+.writer{
+	display: inline;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	position:relative;
+	top:-2.5px;
+	left: 10px;
+}
+
+.writer :link,.writer :visited{
+	color: black;
+}
+
+.writer :hover,.writer :active{
+    color: blue;
+}
+
+.mid_img{
+	position:relative;
+	top: -20px;
+}
+
+.mid_title{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 20px;
+	position:relative;
+	top: 6px;
+	left: 10px;
+}
+
+.mid_title :link,.mid_title :visited{
+	color: black;
+}
+
+.mid_title :hover,.mid_title :active{
+    color: blue;
+}
+
+
+.yuan{
+	margin-top: 50px;
+	margin-left: 565px;
+}
+
+.join_us{
+	margin-top: 50px;
+	margin-left:483px;
+	border-bottom-color: rgb(204,51,51);
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	position:relative;
+	top: 26px;
+	left: 8px;
+}
+
+.join_us p {
+	font-family: HiraginoSans-W3;
+	font-size: 25px;
+	color: rgb();
+    position:relative;
+	top: 26px;
+}
+
+.jion a:link,.jion a:visited{
+	text-decoration: none;
+	color: rgb(175,174,174);
+}
+
+.jion a:hover,.jion a:active
+{
+    color:rgb(204,51,51);
+}
+
+.our_team{
+	background-image: url(image/ourteam.jpg);
+	background-repeat: repeat;
+	width: 513px;
+	height: 145px;
+}
+
+.our_team ul {
+    position:relative;
+    top: 45px;
+    left: 3.5px;
+}
+
+.our_team ul li {
+	font-family: HiraginoSans-W3;
+	font-size: 75px;
+	display: inline;
+	letter-spacing: -4px;
+	color: rgb(204,51,51);
+}
+
+.team_right{
+	position:relative;
+    left: -2px;
+}
+
+.teammate{
+	width: 1200px;
+	height: 811px;
+	background-image: url(image/teammate.jpg);
+    text-align: center;
+    position: relative;
+    top: -2px;
+    left: 8px;
+}
+
+.mate1 li{
+	display: inline;
+	padding-left: 10px;
+	position: relative;
+    top: 50px;
+    left: 30px;
+}
+
+.mate2 li{
+	display: inline;
+	padding-left: 7px;
+    position: relative;
+    top: -5px;
+    left: 29px;
+}
+
+.mate3 li{
+	display: inline;
+	padding-left: 10px;
+	position: relative;
+	top: -61px;
+	left: 28px;
+}
+
+.foot{
+	width: 1200px;
+	height: 142px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+footer{
+	font-size: 25px;
+	color: rgb(175,174,174);
+	font-family: HiraginoSans-W3;
+}
+
+#navigation{
+	position:fixed;
+    top:130px;
+    right:5px;
+}
+
+#to_top{width:30px;
+    height:40px;
+    padding:20px;
+    font:14px/20px arial;
+    text-align:center;
+    background:#06c;
+    position:absolute;
+    cursor:pointer;
+    color:#fff；
+}
+
+
+
