@@ -192,9 +192,14 @@ ul {
 }
 
 
-.yuan{
+.btn-loadmore{
 	margin-top: 50px;
 	margin-left: 565px;
+	-webkit-transition:-webkit-transform 5s;
+}
+
+.btn-loadmore:hover{
+	-webkit-transform:rotate(1800deg);
 }
 
 .join_us{
@@ -305,7 +310,8 @@ footer{
     right:5px;
 }
 
-#to_top{width:30px;
+#to_top{
+	width:30px;
     height:40px;
     padding:20px;
     font:14px/20px arial;
@@ -315,6 +321,8 @@ footer{
     cursor:pointer;
     color:#fff；
 }
+
+
 
 
 
